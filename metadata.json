@@ -1,0 +1,13 @@
+{
+  "student_number_N": 25,
+  "group_index_Q": 1,
+  "year_Y": 26,
+  "variant_formula": "1 + ((17*N + 7*Q + Y) mod 20)",
+  "variant": 19,
+  "seed_formula": "10000 + 100*Q + N",
+  "seed": 10125,
+  "warehouses": 4,
+  "stores": 6,
+  "forbidden_routes": 5,
+  "generation": "The RNG with the fixed seed generates V consecutive candidate networks; variant V uses the V-th candidate."
+}
