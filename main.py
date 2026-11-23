@@ -16,7 +16,6 @@ from src.model import solve_instance, save_solver_log, status_name
 from src.verify import verify_from_csv, verify_integer_from_csv, save_verification
 from src.heuristic import greedy_cheapest_routes
 from src.plots import plot_network, plot_scenario_costs, plot_bottlenecks, plot_optimal_vs_greedy, plot_lp_vs_milp
-from src.reporting import write_report_tex
 from src.milp_extension import solve_integer_instance, save_milp_log
 
 ROOT = Path(__file__).resolve().parent
@@ -281,7 +280,6 @@ def main() -> None:
         "milp_integrality_gap_percent": integrality_gap,
     }
     (RESULTS / "run_info.json").write_text(json.dumps(run_info, ensure_ascii=False, indent=2), encoding="utf-8")
-    write_report_tex(ROOT)
 
     print(f"Variant: {VARIANT}; seed: {SEED}")
     print(f"Base: {status_name(base.result)}, cost={optimal_cost:.3f}")
