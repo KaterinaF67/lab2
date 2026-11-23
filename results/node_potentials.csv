@@ -1,0 +1,11 @@
+node_id,node_type,dual_potential
+W1,warehouse,0.870000000
+W2,warehouse,5.730000000
+W3,warehouse,5.760000000
+W4,warehouse,-0.000000000
+M1,store,2.510000000
+M2,store,8.040000000
+M3,store,9.520000000
+M4,store,9.810000000
+M5,store,9.970000000
+M6,store,5.100000000

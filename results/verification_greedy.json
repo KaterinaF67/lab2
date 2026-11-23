@@ -1,0 +1,11 @@
+{
+  "tolerance": 1e-07,
+  "nonnegative_violation": 0.0,
+  "forbidden_route_violation": 0.0,
+  "max_capacity_violation": 0.0,
+  "max_warehouse_balance_error": 0.0,
+  "max_store_balance_error": 0.0,
+  "objective_recomputed": 2169.634,
+  "objective_difference": 0.0,
+  "feasible": true
+}

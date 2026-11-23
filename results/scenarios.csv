@@ -1,0 +1,5 @@
+scenario,status,objective_cost,delta_vs_base,change,iterations
+base,optimal,2103.469000000,0.000000000,исходная сеть,17
+arc_failure,optimal,2242.204000000,138.735000000,закрыт маршрут W1→M1,12
+arc_overload,optimal,2129.420200000,25.951200000,пропускная способность W2→M6 -20%,16
+demand_plus_20,infeasible,,,спрос всех магазинов +20%,10

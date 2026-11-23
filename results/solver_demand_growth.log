@@ -1,0 +1,13 @@
+HiGHS solver log summary
+method=highs-ds
+scipy_version=1.17.0
+highs_version=1.8.0
+presolve=True
+status=infeasible
+status_code=2
+success=False
+message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)
+objective=None
+iterations=10
+crossover_iterations=0
+elapsed_s=0.001433811

@@ -1,0 +1,13 @@
+HiGHS solver log summary
+method=highs-ds
+scipy_version=1.17.0
+highs_version=1.8.0
+presolve=True
+status=optimal
+status_code=0
+success=True
+message=Optimization terminated successfully. (HiGHS Status 7: Optimal)
+objective=2129.4202
+iterations=16
+crossover_iterations=0
+elapsed_s=0.001756760

@@ -1,0 +1,9 @@
+{
+  "feasible": true,
+  "objective_cost": 2169.634,
+  "max_remaining_supply": 0.0,
+  "max_remaining_demand": 0.0,
+  "optimal_cost": 2103.469,
+  "absolute_gap": 66.16499999999996,
+  "gap_percent": 3.1455181892388224
+}

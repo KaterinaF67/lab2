@@ -1,0 +1,12 @@
+HiGHS MILP solver log summary
+solver=scipy.optimize.milp
+scipy_version=1.17.0
+highs_version=1.8.0
+presolve=True
+status_code=0
+success=True
+message=Optimization terminated successfully. (HiGHS Status 7: Optimal)
+objective=2111.93
+mip_node_count=1
+mip_gap=0.0
+elapsed_s=0.001510936

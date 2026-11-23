@@ -1,0 +1,7 @@
+{
+  "status": "infeasible",
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "total_supply_units": 227.0,
+  "total_demand_units": 272.4,
+  "aggregate_shortage_units": 45.39999999999998
+}

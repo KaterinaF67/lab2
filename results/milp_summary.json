@@ -1,0 +1,12 @@
+{
+  "status": "optimal",
+  "lp_objective_cost": 2103.469,
+  "milp_objective_cost": 2111.93,
+  "absolute_gap": 8.460999999999785,
+  "integrality_gap_percent": 0.4022402992390088,
+  "mip_node_count": 1,
+  "mip_gap": 0.0,
+  "elapsed_s": 0.0015109359999883054,
+  "max_integrality_violation": 0.0,
+  "changed_routes": 13
+}

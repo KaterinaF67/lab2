@@ -1,0 +1,29 @@
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [3e+00, 2e+01]
+  Bound  [0e+00, 0e+00]
+  RHS    [1e+01, 7e+01]
+Presolving model
+10 rows, 19 cols, 38 nonzeros  0s
+9 rows, 19 cols, 34 nonzeros  0s
+Presolve : Reductions: rows 9(-20); columns 19(-0); elements 34(-23)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 9(403) 0s
+         17     2.1034690000e+03 Pr: 0(0) 0s
+Solving the original LP from the solution after postsolve
+Model status        : Optimal
+Simplex   iterations: 17
+Objective value     :  2.1034690000e+03
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+
+--- SciPy/HiGHS result summary ---
+success=True
+status=0
+message=Optimization terminated successfully. (HiGHS Status 7: Optimal)
+objective=2103.469
+iterations=17
+crossover_iterations=0
